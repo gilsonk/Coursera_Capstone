@@ -955,7 +955,7 @@ Let's first do it for our \textbf{Neighborhood} (\emph{Area}) data:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{2}{\boxspacing}
+% % \prompt{Out}{outcolor}{2}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
       % Location                     London Borough       Post Town  \textbackslash{}
 % 0   Abbey Wood             Bexley,  Greenwich [7]          LONDON
@@ -1074,7 +1074,7 @@ Let's first do it for our \textbf{Neighborhood} (\emph{Area}) data:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{3}{\boxspacing}
+% % \prompt{Out}{outcolor}{3}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                          % Borough Inner Status  \textbackslash{}
 % 0  Barking and Dagenham [note 1]
@@ -1193,7 +1193,7 @@ Let's have a look at the resulting \textbf{Neighborhood} data:
 }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{5}{\boxspacing}
+% % \prompt{Out}{outcolor}{5}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                              % Borough Neighborhood            Town   Latitude  \textbackslash{}
 % 0             Bexley,  Greenwich [7]   Abbey Wood          LONDON  51.486484
@@ -1266,7 +1266,7 @@ Let's have a look at the resulting \textbf{Neighborhood} data:
 }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{6}{\boxspacing}
+% % \prompt{Out}{outcolor}{6}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                          % Borough Inner   Area Population  \textbackslash{}
 % 0  Barking and Dagenham [note 1]        13.93    194,352
@@ -1377,7 +1377,7 @@ On our \textbf{Neighborhood} data, we obtain the following result:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{8}{\boxspacing}
+% % \prompt{Out}{outcolor}{8}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
    % Borough Neighborhood     Town   Latitude  Longitude
 % 0   Bexley   Abbey Wood   London  51.486484   0.109318
@@ -1410,7 +1410,7 @@ On our \textbf{Neighborhood} data, we obtain the following result:
 % }
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{9}{\boxspacing}
+% \prompt{Out}{outcolor}{9}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 Borough          object
 Neighborhood     object
@@ -1479,7 +1479,7 @@ Let's apply the same process to our \textbf{Borough} data:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{10}{\boxspacing}
+% % \prompt{Out}{outcolor}{10}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough Inner   Area Population  \textbackslash{}
 % 0  Barking and Dagenham        13.93    194,352
@@ -1515,7 +1515,7 @@ complete look at how they look like:
 % }
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{11}{\boxspacing}
+% \prompt{Out}{outcolor}{11}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 '51°33'39"N 0°09'21"E\textbackslash{}ufeff / \textbackslash{}ufeff51.5607°N 0.1557°E\textbackslash{}ufeff / 51.5607;
 0.1557\textbackslash{}ufeff'
@@ -1539,7 +1539,7 @@ complete look at how they look like:
 % }
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{12}{\boxspacing}
+% \prompt{Out}{outcolor}{12}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 '51°33'39"N 0°09'21"E / 51.5607°N 0.1557°E / 51.5607; 0.1557'
 \end{Verbatim}
@@ -1556,7 +1556,7 @@ column (i.e.~coordinates under the decimal form):
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{lllll}
     Borough & Inner &
     Area & Population &
@@ -1577,10 +1577,10 @@ column (i.e.~coordinates under the decimal form):
     Bromley & & 57.97 & 317,899 &
     51.4039; 0.0198
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{13}{\boxspacing}
+% % \prompt{Out}{outcolor}{13}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough Inner   Area Population        Coordinates
 % 0  Barking and Dagenham        13.93    194,352    51.5607; 0.1557
@@ -1603,7 +1603,7 @@ splitting the coordinates on the semi-colon:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{lllllll}
     Borough & Inner &
     Area & Population &
@@ -1630,10 +1630,10 @@ splitting the coordinates on the semi-colon:
     51.4039; 0.0198 &
     51.4039 & 0.0198
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{14}{\boxspacing}
+% % \prompt{Out}{outcolor}{14}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough Inner   Area Population        Coordinates  Latitude  \textbackslash{}
 % 0  Barking and Dagenham        13.93    194,352    51.5607; 0.1557   51.5607
@@ -1661,7 +1661,7 @@ splitting the coordinates on the semi-colon:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{llllll}
     Borough & Inner &
     Area & Population &
@@ -1682,10 +1682,10 @@ splitting the coordinates on the semi-colon:
     Bromley & & 57.97 & 317,899 &
     51.4039 & 0.0198
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{15}{\boxspacing}
+% % \prompt{Out}{outcolor}{15}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough Inner   Area Population  Latitude Longitude
 % 0  Barking and Dagenham        13.93    194,352   51.5607    0.1557
@@ -1707,7 +1707,7 @@ splitting the coordinates on the semi-colon:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{llllll}
     Borough & Inner &
     Area & Population &
@@ -1728,10 +1728,10 @@ splitting the coordinates on the semi-colon:
     Bromley & 0 & 57.97 & 317,899 &
     51.4039 & 0.0198
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{16}{\boxspacing}
+% % \prompt{Out}{outcolor}{16}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough  Inner   Area Population  Latitude Longitude
 % 0  Barking and Dagenham      0  13.93    194,352   51.5607    0.1557
@@ -1765,7 +1765,7 @@ splitting the coordinates on the semi-colon:
 % }
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{17}{\boxspacing}
+% \prompt{Out}{outcolor}{17}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 Borough       object
 Inner          int64
@@ -1787,7 +1787,7 @@ object datatype:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{llll}
     Area & Population &
     Latitude & Longitude
@@ -1807,10 +1807,10 @@ object datatype:
     57.97 & 317,899 &
     51.4039 & 0.0198
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{18}{\boxspacing}
+% % \prompt{Out}{outcolor}{18}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
     % Area Population  Latitude Longitude
 % 0  13.93    194,352   51.5607    0.1557
@@ -1848,7 +1848,7 @@ object datatype:
 % }
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{19}{\boxspacing}
+% \prompt{Out}{outcolor}{19}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 Borough        object
 Inner           int64
@@ -1871,7 +1871,7 @@ meters:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{llllll}
     Borough & Inner &
     Area &
@@ -1903,10 +1903,10 @@ meters:
     317,899 &
     51.4039 & 0.0198
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{20}{\boxspacing}
+% % \prompt{Out}{outcolor}{20}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough  Inner          Area  Population  Latitude  Longitude
 % 0  Barking and Dagenham      0  3.607853e+07    194352.0   51.5607     0.1557
@@ -1928,7 +1928,7 @@ meters:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{lllllll}
     Borough & Inner &
     Area &
@@ -1966,10 +1966,10 @@ meters:
     51.4039 & 0.0198 &
     6913.143932
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{21}{\boxspacing}
+% % \prompt{Out}{outcolor}{21}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough  Inner          Area  Population  Latitude  Longitude  \textbackslash{}
 % 0  Barking and Dagenham      0  3.607853e+07    194352.0   51.5607     0.1557
@@ -1998,7 +1998,7 @@ purposes:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{lllllll}
     Borough & Inner &
     Area &
@@ -2036,10 +2036,10 @@ purposes:
     51.4039 & 0.0198 &
     6913.143932
     \end{tabular}
-}
+% }
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{22}{\boxspacing}
+% % \prompt{Out}{outcolor}{22}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough  Inner        Area  Population  Latitude  Longitude  \textbackslash{}
 % 0  Barking and Dagenham      0   36.078534    194352.0   51.5607     0.1557
@@ -2159,7 +2159,7 @@ No missing data found.
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{lllll}
     Neighborhood data shape: (532, 5)
     \\ \hline
@@ -2181,14 +2181,14 @@ No missing data found.
     Bexley & Albany Park & Bexley &
     51.434929 & 0.125663
     \end{tabular}
-}
+% }
 
     % \begin{Verbatim}[commandchars=\\\{\}]
 % Neighborhood data shape: (532, 5)
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{27}{\boxspacing}
+% % \prompt{Out}{outcolor}{27}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
           % Borough      Neighborhood     Town   Latitude  Longitude
 % 0          Bexley        Abbey Wood   London  51.486484   0.109318
@@ -2212,7 +2212,7 @@ No missing data found.
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{lllllll}
     Borough data shape: (33, 7)
     \\ \hline
@@ -2252,14 +2252,14 @@ No missing data found.
     51.4039 & 0.0198 &
     6913.143932
     \end{tabular}
-}
+% }
 
     % \begin{Verbatim}[commandchars=\\\{\}]
 % Borough data shape: (33, 7)
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{28}{\boxspacing}
+% % \prompt{Out}{outcolor}{28}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                 % Borough  Inner        Area  Population  Latitude  Longitude  \textbackslash{}
 % 0  Barking and Dagenham      0   36.078534    194352.0   51.5607     0.1557
@@ -2430,10 +2430,10 @@ to have a approximate view of the boroughs area:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{01_borough_radius}
+\begin{center}\includegraphics{01_borough_radius}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{32}{\boxspacing}
+% % \prompt{Out}{outcolor}{32}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e76d8b80>
 % \end{Verbatim}
@@ -2492,10 +2492,10 @@ visualize neighborhoods. Let's try with a GeoJSON of the borough limits:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{02_borough_geojson}
+\begin{center}\includegraphics{02_borough_geojson}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{34}{\boxspacing}
+% % \prompt{Out}{outcolor}{34}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e8dbf820>
 % \end{Verbatim}
@@ -2540,7 +2540,7 @@ indicating whether a neighborhood is part of the City of London or not:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{llllll}
     Dataframe shape: (180, 6)
     \\ \hline
@@ -2556,7 +2556,7 @@ indicating whether a neighborhood is part of the City of London or not:
     \\
     Westminster & Aldwych & London & 51.512819 & -0.117388 & 0
     \end{tabular}
-}
+% }
 
     % \begin{Verbatim}[commandchars=\\\{\}]
 % Dataframe shape: (180, 6)
@@ -2565,7 +2565,7 @@ indicating whether a neighborhood is part of the City of London or not:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{36}{\boxspacing}
+% % \prompt{Out}{outcolor}{36}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
           % Borough Neighborhood    Town   Latitude  Longitude  City
 % 0  City of London      Aldgate  London  51.514885  -0.078356     1
@@ -2591,7 +2591,7 @@ City of London:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\resizebox{\textwidth}{!}{%
+% \resizebox{\textwidth}{!}{%
     \begin{tabular}{lllll}
     Dataframe shape: (4, 5)
     \\ \hline
@@ -2605,7 +2605,7 @@ City of London:
     \\
     City of London & Temple & London & 51.511828 & -0.111659
     \end{tabular}
-}
+% }
 
     % \begin{Verbatim}[commandchars=\\\{\}]
 % Dataframe shape: (4, 5)
@@ -2614,7 +2614,7 @@ City of London:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{37}{\boxspacing}
+% % \prompt{Out}{outcolor}{37}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
           % Borough Neighborhood    Town   Latitude  Longitude
 % 0  City of London      Aldgate  London  51.514885  -0.078356
@@ -2666,10 +2666,10 @@ neighborhoods in blue, then turning red the ones in London city:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{03_londoncity_neighborhoods}
+\begin{center}\includegraphics{03_londoncity_neighborhoods}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{38}{\boxspacing}
+% % \prompt{Out}{outcolor}{38}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e8f474c0>
 % \end{Verbatim}
@@ -2736,10 +2736,10 @@ of London, hereby in red:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{04_londoncity_boundaries}
+\begin{center}\includegraphics{04_londoncity_boundaries}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{40}{\boxspacing}
+% % \prompt{Out}{outcolor}{40}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e9270d60>
 % \end{Verbatim}
@@ -2884,7 +2884,7 @@ After that, we will store the results into a dataframe:
 % \end{tcolorbox}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{44}{\boxspacing}
+% % \prompt{Out}{outcolor}{44}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
     % Latitude  Longitude  Distance from Center              X             Y
 % 0  51.473259  -0.116492           4993.746089  700250.415693  5.706399e+06
@@ -2917,10 +2917,10 @@ the center of the city:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{05_hexa_areas_all}
+\begin{center}\includegraphics{05_hexa_areas_all}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{45}{\boxspacing}
+% % \prompt{Out}{outcolor}{45}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e9e013a0>
 % \end{Verbatim}
@@ -3008,7 +3008,7 @@ all areas within it, and storing them into a dataframe:
 % \end{tcolorbox}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{48}{\boxspacing}
+% % \prompt{Out}{outcolor}{48}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
     % Latitude  Longitude  Distance from Center              X             Y
 % 0  51.485366  -0.133735           4422.951503  699000.415693  5.707698e+06
@@ -3044,10 +3044,10 @@ areas in red:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{06_hexa_areas_bad}
+\begin{center}\includegraphics{06_hexa_areas_bad}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{49}{\boxspacing}
+% % \prompt{Out}{outcolor}{49}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e9f250d0>
 % \end{Verbatim}
@@ -3119,10 +3119,10 @@ the bourough boundaries, still keeping the City of London in red:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{07_hexa_areas_boundaries}
+\begin{center}\includegraphics{07_hexa_areas_boundaries}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{51}{\boxspacing}
+% % \prompt{Out}{outcolor}{51}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221ea639e20>
 % \end{Verbatim}
@@ -3178,7 +3178,7 @@ But first, let's store our areas coordinates into a dataframe:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{53}{\boxspacing}
+% % \prompt{Out}{outcolor}{53}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
     % Latitude  Longitude  Distance from Center              X             Y
 % 0  51.473259  -0.116492           4993.746089  700250.415693  5.706399e+06
@@ -3213,7 +3213,7 @@ City center coordinates address:
     \end{Verbatim}
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{54}{\boxspacing}
+% \prompt{Out}{outcolor}{54}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 'Roman Amphitheatre Site, Guildhall Yard, Barbican, City of London, Greater
 London, England, United Kingdom'
@@ -3264,7 +3264,7 @@ retrieve the addresses of each rows:
     % \end{Verbatim}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{55}{\boxspacing}
+% % \prompt{Out}{outcolor}{55}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
                                              % Address   Latitude  Longitude  \textbackslash{}
 % 0  Lambeth day nursery, Stockwell Park Road, Stoc{\ldots}  51.473259  -0.116492
@@ -3908,10 +3908,10 @@ map. We will highligh \textbf{Italian} restaurants in green, and
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{08_restaurants}
+\begin{center}\includegraphics{08_restaurants}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{65}{\boxspacing}
+% % \prompt{Out}{outcolor}{65}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e76b6850>
 % \end{Verbatim}
@@ -3987,38 +3987,89 @@ of restaurants in every area candidate}:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Average number of restaurants in every area with radius=300m: 5.44
-    \end{Verbatim}
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{lllllll}
+    Average number of restaurants in every area with radius=250m: 5.44
+    \\ \hline
+    Address &
+    Latitudes & Longitude &
+    Distance from Center & X & Y &
+    Restaurants in area
+    \\ \hline
+    Lambeth day nursery, Stockwell Park Road, Stoc{\ldots} &
+    51.473259 & -0.116492 &
+    4993.746089 & 700250.415693 & 5.706399e+06 & 0
+    \\
+    Dundas Road, Kennington, London Borough of Lam{\ldots} &
+    51.473082 & -0.109302 &
+    4866.980583 & 700750.415693 & 5.706399e+06 & 1
+    \\
+    2-4, Welby Street, Paulet Road Estate, Kenning{\ldots} &
+    51.472904 & -0.102112 &
+    4789.311015 & 701250.415693 & 5.706399e+06 & 1
+    \\
+    40, Valmar Road, Camberwell, London Borough of{\ldots} &
+    51.472726 & -0.094922 &
+    4763.139721 & 701750.415693 & 5.706399e+06 & 7
+    \\
+    4-8, Ribbon Dance Mews, Camberwell, London Bor{\ldots} &
+    51.472548 & -0.087733 &
+    4789.311015 & 702250.415693 & 5.706399e+06 & 9
+    \\
+    39, Shenley Road, Peckham, London Borough of S{\ldots} &
+    51.472369 & -0.080543 &
+    4866.980583 & 702750.415693 & 5.706399e+06 & 4
+    \\
+    Harris Academy at Peckham, 112, Peckham Road, {\ldots} &
+    51.472189 & -0.073354 &
+    4993.746089 & 703250.415693 & 5.706399e+06 & 1
+    \\
+    Hartington Road, Vauxhall, London Borough of L{\ldots} &
+    51.477413 & -0.127033 &
+    4879.805324 & 699500.415693 & 5.706832e+06 & 1
+    \\
+    20, Albert Square, Kennington, London Borough {\ldots} &
+    51.477236 & -0.119842 &
+    4670.385423 & 700000.415693 & 5.706832e+06 & 1
+    \\
+    Tesco Brixton Road, Caldwell Street, Kenningto{\ldots} &
+    51.477059 & -0.112651 &
+    4506.939094 & 700500.415693 & 5.706832e+06 & 2
+    \end{tabular}
+}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{67}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-                                             Address   Latitude  Longitude  \textbackslash{}
-0  Lambeth day nursery, Stockwell Park Road, Stoc{\ldots}  51.473259  -0.116492
-1  Dundas Road, Kennington, London Borough of Lam{\ldots}  51.473082  -0.109302
-2  2-4, Welby Street, Paulet Road Estate, Kenning{\ldots}  51.472904  -0.102112
-3  40, Valmar Road, Camberwell, London Borough of{\ldots}  51.472726  -0.094922
-4  4-8, Ribbon Dance Mews, Camberwell, London Bor{\ldots}  51.472548  -0.087733
-5  39, Shenley Road, Peckham, London Borough of S{\ldots}  51.472369  -0.080543
-6  Harris Academy at Peckham, 112, Peckham Road, {\ldots}  51.472189  -0.073354
-7  Hartington Road, Vauxhall, London Borough of L{\ldots}  51.477413  -0.127033
-8  20, Albert Square, Kennington, London Borough {\ldots}  51.477236  -0.119842
-9  Tesco Brixton Road, Caldwell Street, Kenningto{\ldots}  51.477059  -0.112651
+    % \begin{Verbatim}[commandchars=\\\{\}]
+% Average number of restaurants in every area with radius=300m: 5.44
+    % \end{Verbatim}
 
-   Distance from Center              X             Y  Restaurants in area
-0           4993.746089  700250.415693  5.706399e+06                    0
-1           4866.980583  700750.415693  5.706399e+06                    1
-2           4789.311015  701250.415693  5.706399e+06                    1
-3           4763.139721  701750.415693  5.706399e+06                    7
-4           4789.311015  702250.415693  5.706399e+06                    9
-5           4866.980583  702750.415693  5.706399e+06                    4
-6           4993.746089  703250.415693  5.706399e+06                    1
-7           4879.805324  699500.415693  5.706832e+06                    1
-8           4670.385423  700000.415693  5.706832e+06                    1
-9           4506.939094  700500.415693  5.706832e+06                    2
-\end{Verbatim}
-\end{tcolorbox}
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{67}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+                                             % Address   Latitude  Longitude  \textbackslash{}
+% 0  Lambeth day nursery, Stockwell Park Road, Stoc{\ldots}  51.473259  -0.116492
+% 1  Dundas Road, Kennington, London Borough of Lam{\ldots}  51.473082  -0.109302
+% 2  2-4, Welby Street, Paulet Road Estate, Kenning{\ldots}  51.472904  -0.102112
+% 3  40, Valmar Road, Camberwell, London Borough of{\ldots}  51.472726  -0.094922
+% 4  4-8, Ribbon Dance Mews, Camberwell, London Bor{\ldots}  51.472548  -0.087733
+% 5  39, Shenley Road, Peckham, London Borough of S{\ldots}  51.472369  -0.080543
+% 6  Harris Academy at Peckham, 112, Peckham Road, {\ldots}  51.472189  -0.073354
+% 7  Hartington Road, Vauxhall, London Borough of L{\ldots}  51.477413  -0.127033
+% 8  20, Albert Square, Kennington, London Borough {\ldots}  51.477236  -0.119842
+% 9  Tesco Brixton Road, Caldwell Street, Kenningto{\ldots}  51.477059  -0.112651
+
+   % Distance from Center              X             Y  Restaurants in area
+% 0           4993.746089  700250.415693  5.706399e+06                    0
+% 1           4866.980583  700750.415693  5.706399e+06                    1
+% 2           4789.311015  701250.415693  5.706399e+06                    1
+% 3           4763.139721  701750.415693  5.706399e+06                    7
+% 4           4789.311015  702250.415693  5.706399e+06                    9
+% 5           4866.980583  702750.415693  5.706399e+06                    4
+% 6           4993.746089  703250.415693  5.706399e+06                    1
+% 7           4879.805324  699500.415693  5.706832e+06                    1
+% 8           4670.385423  700000.415693  5.706832e+06                    1
+% 9           4506.939094  700500.415693  5.706832e+06                    2
+% \end{Verbatim}
+% \end{tcolorbox}
         
     OK, now let's calculate the \textbf{distance to nearest Italian and
 French restaurant from every area candidate center} (not only those
@@ -4063,46 +4114,116 @@ it is):
 % \end{Verbatim}
 % \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{111}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-                                             Address   Latitude  Longitude  \textbackslash{}
-0  Lambeth day nursery, Stockwell Park Road, Stoc{\ldots}  51.473259  -0.116492
-1  Dundas Road, Kennington, London Borough of Lam{\ldots}  51.473082  -0.109302
-2  2-4, Welby Street, Paulet Road Estate, Kenning{\ldots}  51.472904  -0.102112
-3  40, Valmar Road, Camberwell, London Borough of{\ldots}  51.472726  -0.094922
-4  4-8, Ribbon Dance Mews, Camberwell, London Bor{\ldots}  51.472548  -0.087733
-5  39, Shenley Road, Peckham, London Borough of S{\ldots}  51.472369  -0.080543
-6  Harris Academy at Peckham, 112, Peckham Road, {\ldots}  51.472189  -0.073354
-7  Hartington Road, Vauxhall, London Borough of L{\ldots}  51.477413  -0.127033
-8  20, Albert Square, Kennington, London Borough {\ldots}  51.477236  -0.119842
-9  Tesco Brixton Road, Caldwell Street, Kenningto{\ldots}  51.477059  -0.112651
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{lllllllll}
+    Address &
+    Latitudes & Longitude &
+    Distance from Center & X & Y & Restaurants in area &
+    Distance to Italian restaurant &
+    Distance to French restaurant
+    \\ \hline
+    Lambeth day nursery, Stockwell Park Road, Stoc{\ldots} &
+    51.473259 & -0.116492 &
+    4993.746089 & 700250.415693 & 5.706399e+06 & 0 &
+    1156.951781 &
+    1463.490762
+    \\
+    Dundas Road, Kennington, London Borough of Lam{\ldots} &
+    51.473082 & -0.109302 &
+    4866.980583 & 700750.415693 & 5.706399e+06 & 1 &
+    1387.391283 &
+    1926.789888
+    \\
+    2-4, Welby Street, Paulet Road Estate, Kenning{\ldots} &
+    51.472904 & -0.102112 &
+    4789.311015 & 701250.415693 & 5.706399e+06 & 1 &
+    891.923212 &
+    2029.583724
+    \\
+    40, Valmar Road, Camberwell, London Borough of{\ldots} &
+    51.472726 & -0.094922 &
+    4763.139721 & 701750.415693 & 5.706399e+06 & 7 &
+    407.675682 &
+    2129.980681
+    \\
+    4-8, Ribbon Dance Mews, Camberwell, London Bor{\ldots} &
+    51.472548 & -0.087733 &
+    4789.311015 & 702250.415693 & 5.706399e+06 & 9 &
+    192.020588 &
+    2335.471111
+    \\
+    39, Shenley Road, Peckham, London Borough of S{\ldots} &
+    51.472369 & -0.080543 &
+    4866.980583 & 702750.415693 & 5.706399e+06 & 4 &
+    638.392004 &
+    2621.456259
+    \\
+    Harris Academy at Peckham, 112, Peckham Road, {\ldots} &
+    51.472189 & -0.073354 &
+    4993.746089 & 703250.415693 & 5.706399e+06 & 1 &
+    1130.582503 &
+    2964.732792
+    \\
+    Hartington Road, Vauxhall, London Borough of L{\ldots} &
+    51.477413 & -0.127033 &
+    4879.805324 & 699500.415693 & 5.706832e+06 & 1 &
+    628.490442 &
+    603.914257
+    \\
+    20, Albert Square, Kennington, London Borough {\ldots} &
+    51.477236 & -0.119842 &
+    4670.385423 & 700000.415693 & 5.706832e+06 & 1 &
+    657.670108 &
+    1088.772929
+    \\
+    Tesco Brixton Road, Caldwell Street, Kenningto{\ldots} &
+    51.477059 & -0.112651 &
+    4506.939094 & 700500.415693 & 5.706832e+06 & 2 &
+    977.733564 &
+    1583.079452
+    \end{tabular}
+}
 
-   Distance from Center              X             Y  Restaurants in area  \textbackslash{}
-0           4993.746089  700250.415693  5.706399e+06                    0
-1           4866.980583  700750.415693  5.706399e+06                    1
-2           4789.311015  701250.415693  5.706399e+06                    1
-3           4763.139721  701750.415693  5.706399e+06                    7
-4           4789.311015  702250.415693  5.706399e+06                    9
-5           4866.980583  702750.415693  5.706399e+06                    4
-6           4993.746089  703250.415693  5.706399e+06                    1
-7           4879.805324  699500.415693  5.706832e+06                    1
-8           4670.385423  700000.415693  5.706832e+06                    1
-9           4506.939094  700500.415693  5.706832e+06                    2
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{111}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+                                             % Address   Latitude  Longitude  \textbackslash{}
+% 0  Lambeth day nursery, Stockwell Park Road, Stoc{\ldots}  51.473259  -0.116492
+% 1  Dundas Road, Kennington, London Borough of Lam{\ldots}  51.473082  -0.109302
+% 2  2-4, Welby Street, Paulet Road Estate, Kenning{\ldots}  51.472904  -0.102112
+% 3  40, Valmar Road, Camberwell, London Borough of{\ldots}  51.472726  -0.094922
+% 4  4-8, Ribbon Dance Mews, Camberwell, London Bor{\ldots}  51.472548  -0.087733
+% 5  39, Shenley Road, Peckham, London Borough of S{\ldots}  51.472369  -0.080543
+% 6  Harris Academy at Peckham, 112, Peckham Road, {\ldots}  51.472189  -0.073354
+% 7  Hartington Road, Vauxhall, London Borough of L{\ldots}  51.477413  -0.127033
+% 8  20, Albert Square, Kennington, London Borough {\ldots}  51.477236  -0.119842
+% 9  Tesco Brixton Road, Caldwell Street, Kenningto{\ldots}  51.477059  -0.112651
 
-   Distance to Italian restaurant  Distance to French restaurant
-0                     1156.951781                    1463.490762
-1                     1387.391283                    1926.789888
-2                      891.923212                    2029.583724
-3                      407.675682                    2129.980681
-4                      192.020588                    2335.471111
-5                      638.392004                    2621.456259
-6                     1130.582503                    2964.732792
-7                      628.490442                     603.914257
-8                      657.670108                    1088.772929
-9                      977.733564                    1583.079452
-\end{Verbatim}
-\end{tcolorbox}
+   % Distance from Center              X             Y  Restaurants in area  \textbackslash{}
+% 0           4993.746089  700250.415693  5.706399e+06                    0
+% 1           4866.980583  700750.415693  5.706399e+06                    1
+% 2           4789.311015  701250.415693  5.706399e+06                    1
+% 3           4763.139721  701750.415693  5.706399e+06                    7
+% 4           4789.311015  702250.415693  5.706399e+06                    9
+% 5           4866.980583  702750.415693  5.706399e+06                    4
+% 6           4993.746089  703250.415693  5.706399e+06                    1
+% 7           4879.805324  699500.415693  5.706832e+06                    1
+% 8           4670.385423  700000.415693  5.706832e+06                    1
+% 9           4506.939094  700500.415693  5.706832e+06                    2
+
+   % Distance to Italian restaurant  Distance to French restaurant
+% 0                     1156.951781                    1463.490762
+% 1                     1387.391283                    1926.789888
+% 2                      891.923212                    2029.583724
+% 3                      407.675682                    2129.980681
+% 4                      192.020588                    2335.471111
+% 5                      638.392004                    2621.456259
+% 6                     1130.582503                    2964.732792
+% 7                      628.490442                     603.914257
+% 8                      657.670108                    1088.772929
+% 9                      977.733564                    1583.079452
+% \end{Verbatim}
+% \end{tcolorbox}
         
     % \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 % \prompt{In}{incolor}{112}{\boxspacing}
@@ -4177,10 +4298,10 @@ will also add circles around 1km, 2km, and 3km from the center:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{09_rest_heat_all}
+\begin{center}\includegraphics{09_rest_heat_all}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{72}{\boxspacing}
+% % \prompt{Out}{outcolor}{72}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221ec15e190>
 % \end{Verbatim}
@@ -4233,10 +4354,10 @@ restaurants:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{10_rest_heat_ita}
+\begin{center}\includegraphics{10_rest_heat_ita}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{74}{\boxspacing}
+% % \prompt{Out}{outcolor}{74}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221ee69d700>
 % \end{Verbatim}
@@ -4288,10 +4409,10 @@ Let's have a look at the \textbf{French} ones:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{11_rest_heat_fre}
+\begin{center}\includegraphics{11_rest_heat_fre}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{76}{\boxspacing}
+% % \prompt{Out}{outcolor}{76}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221eec8eee0>
 % \end{Verbatim}
@@ -4350,10 +4471,10 @@ Center: 51.51408470892323, -0.10291062852174855
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{12_search_area}
+\begin{center}\includegraphics{12_search_area}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{79}{\boxspacing}
+% % \prompt{Out}{outcolor}{79}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221ef510550>
 % \end{Verbatim}
@@ -4407,9 +4528,27 @@ make our candidates 100m appart, on a 1x1km hexagone:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-362 candidate neighborhood centers generated.
-    \end{Verbatim}
+% \resizebox{\textwidth}{!}{%
+    \begin{tabular}{llll}
+    362 candidate neighborhood centers generated.
+    \\\hline
+    Latitude & Longitude & X & Y
+    \\ \hline
+    51.506024 & -0.109187 & 700613.6619 & 5.710062e+06
+    \\
+    51.505989 & -0.107748 & 700713.6619 & 5.710062e+06
+    \\
+    51.505953 & -0.106309 & 700813.6619 & 5.710062e+06
+    \\
+    51.505918 & -0.104870 & 700913.6619 & 5.710062e+06
+    \\
+    51.505882 & -0.103431 & 701013.6619 & 5.710062e+06
+    \end{tabular}
+% }
+
+    % \begin{Verbatim}[commandchars=\\\{\}]
+% 362 candidate neighborhood centers generated.
+    % \end{Verbatim}
 
     % \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 % \prompt{In}{incolor}{82}{\boxspacing}
@@ -4420,17 +4559,17 @@ make our candidates 100m appart, on a 1x1km hexagone:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{82}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-    Latitude  Longitude            X             Y
-0  51.506024  -0.109187  700613.6619  5.710062e+06
-1  51.505989  -0.107748  700713.6619  5.710062e+06
-2  51.505953  -0.106309  700813.6619  5.710062e+06
-3  51.505918  -0.104870  700913.6619  5.710062e+06
-4  51.505882  -0.103431  701013.6619  5.710062e+06
-\end{Verbatim}
-\end{tcolorbox}
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{82}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+    % Latitude  Longitude            X             Y
+% 0  51.506024  -0.109187  700613.6619  5.710062e+06
+% 1  51.505989  -0.107748  700713.6619  5.710062e+06
+% 2  51.505953  -0.106309  700813.6619  5.710062e+06
+% 3  51.505918  -0.104870  700913.6619  5.710062e+06
+% 4  51.505882  -0.103431  701013.6619  5.710062e+06
+% \end{Verbatim}
+% \end{tcolorbox}
         
     Let's see that grid on a map:
 
@@ -4447,10 +4586,10 @@ make our candidates 100m appart, on a 1x1km hexagone:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{13_hexa_sa_all}
+\begin{center}\includegraphics{13_hexa_sa_all}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{83}{\boxspacing}
+% % \prompt{Out}{outcolor}{83}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221ef58a0a0>
 % \end{Verbatim}
@@ -4494,9 +4633,27 @@ Let's mimict what we did and remove bad areas:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-50 coordinates to be removed out of 362
-    \end{Verbatim}
+% \resizebox{\textwidth}{!}{%
+    \begin{tabular}{llll}
+    50 coordinates to be removed out of 362
+    \\\hline
+    Latitude & Longitude & X & Y
+    \\ \hline
+    51.508482 & -0.114076 & 700263.6619 & 5.710321e+06
+    \\
+    51.508446 & -0.112637 & 700363.6619 & 5.710321e+06
+    \\
+    51.508375 & -0.109759 & 700563.6619 & 5.710321e+06
+    \\
+    51.507984 & -0.093929 & 701663.6619 & 5.710321e+06
+    \\
+    51.507948 & -0.092490 & 701763.6619 & 5.710321e+06
+    \end{tabular}
+% }
+
+    % \begin{Verbatim}[commandchars=\\\{\}]
+% 50 coordinates to be removed out of 362
+    % \end{Verbatim}
 
     % \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 % \prompt{In}{incolor}{86}{\boxspacing}
@@ -4507,17 +4664,17 @@ Let's mimict what we did and remove bad areas:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{86}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-    Latitude  Longitude            X             Y
-0  51.508482  -0.114076  700263.6619  5.710321e+06
-1  51.508446  -0.112637  700363.6619  5.710321e+06
-2  51.508375  -0.109759  700563.6619  5.710321e+06
-3  51.507984  -0.093929  701663.6619  5.710321e+06
-4  51.507948  -0.092490  701763.6619  5.710321e+06
-\end{Verbatim}
-\end{tcolorbox}
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{86}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+    % Latitude  Longitude            X             Y
+% 0  51.508482  -0.114076  700263.6619  5.710321e+06
+% 1  51.508446  -0.112637  700363.6619  5.710321e+06
+% 2  51.508375  -0.109759  700563.6619  5.710321e+06
+% 3  51.507984  -0.093929  701663.6619  5.710321e+06
+% 4  51.507948  -0.092490  701763.6619  5.710321e+06
+% \end{Verbatim}
+% \end{tcolorbox}
         
     % \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 % \prompt{In}{incolor}{87}{\boxspacing}
@@ -4536,10 +4693,10 @@ Let's mimict what we did and remove bad areas:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{14_hexa_sa_bad}
+\begin{center}\includegraphics{14_hexa_sa_bad}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{87}{\boxspacing}
+% % \prompt{Out}{outcolor}{87}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221ef73ee80>
 % \end{Verbatim}
@@ -4567,21 +4724,39 @@ Let's mimict what we did and remove bad areas:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Dataframe shape: (312, 4)
-    \end{Verbatim}
+% \resizebox{\textwidth}{!}{%
+    \begin{tabular}{llll}
+    Dataframe shape: (312, 4)
+    \\\hline
+    Latitude & Longitude & X & Y
+    \\ \hline
+    51.506024 & -0.109187 & 700613.6619 & 5.710062e+06
+    \\
+    51.505989 & -0.107748 & 700713.6619 & 5.710062e+06
+    \\
+    51.505953 & -0.106309 & 700813.6619 & 5.710062e+06
+    \\
+    51.505918 & -0.104870 & 700913.6619 & 5.710062e+06
+    \\
+    51.505882 & -0.103431 & 701013.6619 & 5.710062e+06
+    \end{tabular}
+% }
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{89}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-    Latitude  Longitude            X             Y
-0  51.506024  -0.109187  700613.6619  5.710062e+06
-1  51.505989  -0.107748  700713.6619  5.710062e+06
-2  51.505953  -0.106309  700813.6619  5.710062e+06
-3  51.505918  -0.104870  700913.6619  5.710062e+06
-4  51.505882  -0.103431  701013.6619  5.710062e+06
-\end{Verbatim}
-\end{tcolorbox}
+    % \begin{Verbatim}[commandchars=\\\{\}]
+% Dataframe shape: (312, 4)
+    % \end{Verbatim}
+
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{89}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+    % Latitude  Longitude            X             Y
+% 0  51.506024  -0.109187  700613.6619  5.710062e+06
+% 1  51.505989  -0.107748  700713.6619  5.710062e+06
+% 2  51.505953  -0.106309  700813.6619  5.710062e+06
+% 3  51.505918  -0.104870  700913.6619  5.710062e+06
+% 4  51.505882  -0.103431  701013.6619  5.710062e+06
+% \end{Verbatim}
+% \end{tcolorbox}
         
     Once again, let's add the corresponding addresses, using the same
 procedure as before:
@@ -4598,28 +4773,52 @@ procedure as before:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-(312, 5)
-    \end{Verbatim}
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{lllll}
+    Dataframe shape: (312, 4)
+    \\\hline
+    Address &
+    Latitude & Longitude & X & Y
+    \\ \hline
+    30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  &
+    51.506024 & -0.109187 & 700613.6619 & 5.710062e+06
+    \\
+    The London Nautical School, Stamford Street, B{\ldots} &
+    51.505989 & -0.107748 & 700713.6619 & 5.710062e+06
+    \\
+    1, Paris Garden, Southwark, London Borough of {\ldots} &
+    51.505953 & -0.106309 & 700813.6619 & 5.710062e+06
+    \\
+    Colombo Centre, 34-68, Colombo Street, Banksid{\ldots} &
+    51.505918 & -0.104870 & 700913.6619 & 5.710062e+06
+    \\
+    Quadrant House, 15, Burrell Street, Bankside, {\ldots} &
+    51.505882 & -0.103431 & 701013.6619 & 5.710062e+06
+    \end{tabular}
+}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{90}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-                                             Address   Latitude  Longitude  \textbackslash{}
-0  30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  51.506024  -0.109187
-1  The London Nautical School, Stamford Street, B{\ldots}  51.505989  -0.107748
-2  1, Paris Garden, Southwark, London Borough of {\ldots}  51.505953  -0.106309
-3  Colombo Centre, 34-68, Colombo Street, Banksid{\ldots}  51.505918  -0.104870
-4  Quadrant House, 15, Burrell Street, Bankside, {\ldots}  51.505882  -0.103431
+    % \begin{Verbatim}[commandchars=\\\{\}]
+% (312, 5)
+    % \end{Verbatim}
 
-             X             Y
-0  700613.6619  5.710062e+06
-1  700713.6619  5.710062e+06
-2  700813.6619  5.710062e+06
-3  700913.6619  5.710062e+06
-4  701013.6619  5.710062e+06
-\end{Verbatim}
-\end{tcolorbox}
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{90}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+                                             % Address   Latitude  Longitude  \textbackslash{}
+% 0  30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  51.506024  -0.109187
+% 1  The London Nautical School, Stamford Street, B{\ldots}  51.505989  -0.107748
+% 2  1, Paris Garden, Southwark, London Borough of {\ldots}  51.505953  -0.106309
+% 3  Colombo Centre, 34-68, Colombo Street, Banksid{\ldots}  51.505918  -0.104870
+% 4  Quadrant House, 15, Burrell Street, Bankside, {\ldots}  51.505882  -0.103431
+
+             % X             Y
+% 0  700613.6619  5.710062e+06
+% 1  700713.6619  5.710062e+06
+% 2  700813.6619  5.710062e+06
+% 3  700913.6619  5.710062e+06
+% 4  701013.6619  5.710062e+06
+% \end{Verbatim}
+% \end{tcolorbox}
         
     Now let's calculate the \textbf{number of restaurants in vicinity}, for
 a radius of 100m and \textbf{distance to closest Italian / French
@@ -4658,46 +4857,116 @@ restaurant}:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{92}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-                                             Address   Latitude  Longitude  \textbackslash{}
-0  30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  51.506024  -0.109187
-1  The London Nautical School, Stamford Street, B{\ldots}  51.505989  -0.107748
-2  1, Paris Garden, Southwark, London Borough of {\ldots}  51.505953  -0.106309
-3  Colombo Centre, 34-68, Colombo Street, Banksid{\ldots}  51.505918  -0.104870
-4  Quadrant House, 15, Burrell Street, Bankside, {\ldots}  51.505882  -0.103431
-5  Hilton London Bankside, 2-8, Great Suffolk Str{\ldots}  51.505847  -0.101992
-6  93, Southwark Street, Bankside, Southwark, Lon{\ldots}  51.505811  -0.100553
-7  Bankside 2, Southwark Street, Bankside, Southw{\ldots}  51.505775  -0.099114
-8  Bankside 3, Great Guildford Street, Bankside, {\ldots}  51.505740  -0.097675
-9  95E, Upper Ground, South Bank, Lambeth, London{\ldots}  51.506855  -0.111297
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{llllllll}
+    Address &
+    Latitude & Longitude & X & Y &
+    Restaurants Nearby &
+    Distance to Italian &
+    Distance to French
+    \\ \hline
+    30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  &
+    51.506024 & -0.109187 & 700613.6619 & 5.710062e+06 &
+    2 &
+    243.382059 &
+    411.857297
+    \\
+    The London Nautical School, Stamford Street, B{\ldots} &
+    51.505989 & -0.107748 & 700713.6619 & 5.710062e+06 &
+    0 &
+    206.675344 &
+    511.455302
+    \\
+    1, Paris Garden, Southwark, London Borough of {\ldots} &
+    51.505953 & -0.106309 & 700813.6619 & 5.710062e+06 &
+    0 &
+    214.929219 &
+    611.184604
+    \\
+    Colombo Centre, 34-68, Colombo Street, Banksid{\ldots} &
+    51.505918 & -0.104870 & 700913.6619 & 5.710062e+06 &
+    4 &
+    263.959165 &
+    710.989953
+    \\
+    Quadrant House, 15, Burrell Street, Bankside, {\ldots} &
+    51.505882 & -0.103431 & 701013.6619 & 5.710062e+06 &
+    4 &
+    225.864839 &
+    810.843269
+    \\
+    Hilton London Bankside, 2-8, Great Suffolk Str{\ldots} &
+    51.505847 & -0.101992 & 701113.6619 & 5.710062e+06 &
+    2 &
+    135.320996 &
+    757.697147
+    \\
+    93, Southwark Street, Bankside, Southwark, Lon{\ldots} &
+    51.505811 & -0.100553 & 701213.6619 & 5.710062e+06 &
+    8 &
+    74.890712 &
+    657.715585
+    \\
+    Bankside 2, Southwark Street, Bankside, Southw{\ldots} &
+    51.505775 & -0.099114 & 701313.6619 & 5.710062e+06 &
+    8 &
+    21.751122 &
+    557.740634
+    \\
+    Bankside 3, Great Guildford Street, Bankside, {\ldots} &
+    51.505740 & -0.097675 & 701413.6619 & 5.710062e+06 &
+    5 &
+    15.062640 &
+    457.776625
+    \\
+    95E, Upper Ground, South Bank, Lambeth, London{\ldots} &
+    51.506855 & -0.111297 & 700463.6619 & 5.710148e+06 &
+    1 &
+    306.048930 &
+    289.493878
+    \end{tabular}
+}
 
-             X             Y  Restaurants Nearby  Distance to Italian  \textbackslash{}
-0  700613.6619  5.710062e+06                   2           243.382059
-1  700713.6619  5.710062e+06                   0           206.675344
-2  700813.6619  5.710062e+06                   0           214.929219
-3  700913.6619  5.710062e+06                   4           263.959165
-4  701013.6619  5.710062e+06                   4           225.864839
-5  701113.6619  5.710062e+06                   2           135.320996
-6  701213.6619  5.710062e+06                   8            74.890712
-7  701313.6619  5.710062e+06                   8            21.751122
-8  701413.6619  5.710062e+06                   5            15.062640
-9  700463.6619  5.710148e+06                   1           306.048930
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{92}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+                                             % Address   Latitude  Longitude  \textbackslash{}
+% 0  30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  51.506024  -0.109187
+% 1  The London Nautical School, Stamford Street, B{\ldots}  51.505989  -0.107748
+% 2  1, Paris Garden, Southwark, London Borough of {\ldots}  51.505953  -0.106309
+% 3  Colombo Centre, 34-68, Colombo Street, Banksid{\ldots}  51.505918  -0.104870
+% 4  Quadrant House, 15, Burrell Street, Bankside, {\ldots}  51.505882  -0.103431
+% 5  Hilton London Bankside, 2-8, Great Suffolk Str{\ldots}  51.505847  -0.101992
+% 6  93, Southwark Street, Bankside, Southwark, Lon{\ldots}  51.505811  -0.100553
+% 7  Bankside 2, Southwark Street, Bankside, Southw{\ldots}  51.505775  -0.099114
+% 8  Bankside 3, Great Guildford Street, Bankside, {\ldots}  51.505740  -0.097675
+% 9  95E, Upper Ground, South Bank, Lambeth, London{\ldots}  51.506855  -0.111297
 
-   Distance to French
-0          411.857297
-1          511.455302
-2          611.184604
-3          710.989953
-4          810.843269
-5          757.697147
-6          657.715585
-7          557.740634
-8          457.776625
-9          289.493878
-\end{Verbatim}
-\end{tcolorbox}
+             % X             Y  Restaurants Nearby  Distance to Italian  \textbackslash{}
+% 0  700613.6619  5.710062e+06                   2           243.382059
+% 1  700713.6619  5.710062e+06                   0           206.675344
+% 2  700813.6619  5.710062e+06                   0           214.929219
+% 3  700913.6619  5.710062e+06                   4           263.959165
+% 4  701013.6619  5.710062e+06                   4           225.864839
+% 5  701113.6619  5.710062e+06                   2           135.320996
+% 6  701213.6619  5.710062e+06                   8            74.890712
+% 7  701313.6619  5.710062e+06                   8            21.751122
+% 8  701413.6619  5.710062e+06                   5            15.062640
+% 9  700463.6619  5.710148e+06                   1           306.048930
+
+   % Distance to French
+% 0          411.857297
+% 1          511.455302
+% 2          611.184604
+% 3          710.989953
+% 4          810.843269
+% 5          757.697147
+% 6          657.715585
+% 7          557.740634
+% 8          457.776625
+% 9          289.493878
+% \end{Verbatim}
+% \end{tcolorbox}
         
     We will now filter on the locations that interest us, meaning:
 \begin{itemize}
@@ -4740,46 +5009,116 @@ Locations with both conditions met: 70
 Best places found shape: (70, 8)
     \end{Verbatim}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{93}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-                                              Address   Latitude  Longitude  \textbackslash{}
-0   30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  51.506024  -0.109187
-1   The London Nautical School, Stamford Street, B{\ldots}  51.505989  -0.107748
-2   1, Paris Garden, Southwark, London Borough of {\ldots}  51.505953  -0.106309
-9   95E, Upper Ground, South Bank, Lambeth, London{\ldots}  51.506855  -0.111297
-10  19, Coin Street, South Bank, Lambeth, London B{\ldots}  51.506820  -0.109858
-14  240 Blackfriars Road, 240, Blackfriars Road, B{\ldots}  51.506678  -0.104101
-21  The London Studios (ITV), Upper Ground, South {\ldots}  51.507651  -0.111967
-22  Gabriel's Wharf, South Bank, Lambeth, London B{\ldots}  51.507615  -0.110528
-27  Pulse - Now Closed, Invicta Plaza, Bankside, S{\ldots}  51.507438  -0.103333
-34  South Bank, Lambeth, London Borough of Lambeth{\ldots}  51.508411  -0.111198
-
-              X             Y  Restaurants Nearby  Distance to Italian  \textbackslash{}
-0   700613.6619  5.710062e+06                   2           243.382059
-1   700713.6619  5.710062e+06                   0           206.675344
-2   700813.6619  5.710062e+06                   0           214.929219
-9   700463.6619  5.710148e+06                   1           306.048930
-10  700563.6619  5.710148e+06                   2           217.130879
-14  700963.6619  5.710148e+06                   2           247.113951
-21  700413.6619  5.710235e+06                   0           334.031345
-22  700513.6619  5.710235e+06                   0           234.641879
-27  701013.6619  5.710235e+06                   0           235.580149
-34  700463.6619  5.710321e+06                   0           288.041323
-
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{llllllll}
+    Address &
+    Latitude & Longitude & X & Y &
+    Restaurants Nearby &
+    Distance to Italian &
     Distance to French
-0           411.857297
-1           511.455302
-2           611.184604
-9           289.493878
-10          381.794184
-14          770.459067
-21          299.911772
-22          376.705674
-27          732.610365
-34          397.551922
-\end{Verbatim}
-\end{tcolorbox}
+    \\ \hline
+    30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  &
+    51.506024 & -0.109187 & 700613.6619 & 5.710062e+06 &
+    2 &
+    243.382059 &
+    411.857297
+    \\
+    The London Nautical School, Stamford Street, B{\ldots} &
+    51.505989 & -0.107748 & 700713.6619 & 5.710062e+06 &
+    0 &
+    206.675344 &
+    511.455302
+    \\
+    1, Paris Garden, Southwark, London Borough of {\ldots} &
+    51.505953 & -0.106309 & 700813.6619 & 5.710062e+06 &
+    0 &
+    214.929219 &
+    611.184604
+    \\
+    95E, Upper Ground, South Bank, Lambeth, London{\ldots} &
+    51.506855 & -0.111297 & 700463.6619 & 5.710148e+06 &
+    1 &
+    306.048930 &
+    289.493878
+    \\
+    19, Coin Street, South Bank, Lambeth, London B{\ldots} &
+    51.506820 & -0.109858 & 700563.6619 & 5.710148e+06 &
+    2 &
+    217.130879 &
+    381.794184
+    \\
+    240 Blackfriars Road, 240, Blackfriars Road, B{\ldots} &
+    51.506678 & -0.104101 & 700963.6619 & 5.710148e+06 &
+    2 &
+    247.113951 &
+    770.459067
+    \\
+    The London Studios (ITV), Upper Ground, South {\ldots} &
+    51.507651 & -0.111967 & 700413.6619 & 5.710235e+06 &
+    0 &
+    334.031345 &
+    299.911772
+    \\
+    Gabriel's Wharf, South Bank, Lambeth, London B{\ldots} &
+    51.507615   & 0.110528 & 700513.6619 & 5.710235e+06 &
+    0 &
+    234.641879 &
+    376.705674
+    \\
+    Pulse - Now Closed, Invicta Plaza, Bankside, S{\ldots} &
+    51.507438 & -0.103333 & 701013.6619 & 5.710235e+06 &
+    0 &
+    235.580149 &
+    732.610365
+    \\
+    South Bank, Lambeth, London Borough of Lambeth{\ldots} &
+    51.508411 & -0.111198 & 700463.6619 & 5.710321e+06 &
+    0 &
+    288.041323 &
+    397.551922
+    \end{tabular}
+}
+
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{93}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+                                              % Address   Latitude  Longitude  \textbackslash{}
+% 0   30, Aquinas Street, South Bank, Lambeth, Londo{\ldots}  51.506024  -0.109187
+% 1   The London Nautical School, Stamford Street, B{\ldots}  51.505989  -0.107748
+% 2   1, Paris Garden, Southwark, London Borough of {\ldots}  51.505953  -0.106309
+% 9   95E, Upper Ground, South Bank, Lambeth, London{\ldots}  51.506855  -0.111297
+% 10  19, Coin Street, South Bank, Lambeth, London B{\ldots}  51.506820  -0.109858
+% 14  240 Blackfriars Road, 240, Blackfriars Road, B{\ldots}  51.506678  -0.104101
+% 21  The London Studios (ITV), Upper Ground, South {\ldots}  51.507651  -0.111967
+% 22  Gabriel's Wharf, South Bank, Lambeth, London B{\ldots}  51.507615  -0.110528
+% 27  Pulse - Now Closed, Invicta Plaza, Bankside, S{\ldots}  51.507438  -0.103333
+% 34  South Bank, Lambeth, London Borough of Lambeth{\ldots}  51.508411  -0.111198
+
+              % X             Y  Restaurants Nearby  Distance to Italian  \textbackslash{}
+% 0   700613.6619  5.710062e+06                   2           243.382059
+% 1   700713.6619  5.710062e+06                   0           206.675344
+% 2   700813.6619  5.710062e+06                   0           214.929219
+% 9   700463.6619  5.710148e+06                   1           306.048930
+% 10  700563.6619  5.710148e+06                   2           217.130879
+% 14  700963.6619  5.710148e+06                   2           247.113951
+% 21  700413.6619  5.710235e+06                   0           334.031345
+% 22  700513.6619  5.710235e+06                   0           234.641879
+% 27  701013.6619  5.710235e+06                   0           235.580149
+% 34  700463.6619  5.710321e+06                   0           288.041323
+
+    % Distance to French
+% 0           411.857297
+% 1           511.455302
+% 2           611.184604
+% 9           289.493878
+% 10          381.794184
+% 14          770.459067
+% 21          299.911772
+% 22          376.705674
+% 27          732.610365
+% 34          397.551922
+% \end{Verbatim}
+% \end{tcolorbox}
         
     % \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 % \prompt{In}{incolor}{94}{\boxspacing}
@@ -4801,10 +5140,10 @@ Best places found shape: (70, 8)
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{15_best_loc_allrest}
+\begin{center}\includegraphics{15_best_loc_allrest}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{94}{\boxspacing}
+% % \prompt{Out}{outcolor}{94}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221ef9f93a0>
 % \end{Verbatim}
@@ -4841,10 +5180,10 @@ Let's see that in the form of a \textbf{heatmap}:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{16_best_loc_heat}
+\begin{center}\includegraphics{16_best_loc_heat}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{96}{\boxspacing}
+% % \prompt{Out}{outcolor}{96}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221e720cc40>
 % \end{Verbatim}
@@ -4898,10 +5237,10 @@ addresses will be the final result of our analysis.
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{17_clusters_heat}
+\begin{center}\includegraphics{17_clusters_heat}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{99}{\boxspacing}
+% % \prompt{Out}{outcolor}{99}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221efdcc700>
 % \end{Verbatim}
@@ -4940,10 +5279,10 @@ to indicate our clusters:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{18_clusters}
+\begin{center}\includegraphics{18_clusters}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{101}{\boxspacing}
+% % \prompt{Out}{outcolor}{101}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221efe9b370>
 % \end{Verbatim}
@@ -4984,35 +5323,63 @@ same process as earlier before, let's reverse geocode them:
 % \end{Verbatim}
 % \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{103}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-                                             Address   Latitude  Longitude  \textbackslash{}
-0  3, Brooke's Court, Gray's Inn, Holborn, London{\ldots}  51.519565  -0.111601
-1  Monkwell Square, Barbican, City of London, Gre{\ldots}  51.518159  -0.094044
-2  Hatfield House, 52, Stamford Street, Southwark{\ldots}  51.507155  -0.107674
-3  Vintners Place, Upper Thames Street, Blackfria{\ldots}  51.510383  -0.093837
-4  Clement House, 97–99, Aldwych, St Clement Dane{\ldots}  51.513129  -0.114999
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{llllll}
+    Address &
+    Latitude & Longitude &
+    Distance from Center (km) & X & Y
+    \\ \hline
+    3, Brooke's Court, Gray's Inn, Holborn, London{\ldots} &
+    51.519565 & -0.111601 &
+    1.420752 & 700386.738823 & 5.711561e+06
+    \\
+    Monkwell Square, Barbican, City of London, Gre{\ldots} &
+    51.518159 & -0.094044 &
+    0.322339 & 701610.720723 & 5.711452e+06
+    \\
+    Hatfield House, 52, Stamford Street, Southwark{\ldots} &
+    51.507155 & -0.107674 &
+    1.420003 & 700713.661900 & 5.710192e+06
+    \\
+    Vintners Place, Upper Thames Street, Blackfria{\ldots} & 
+    1.510383 & -0.093837 &
+    0.580570 & 701659.495233 & 5.710589e+06
+    \\
+    Clement House, 97–99, Aldwych, St Clement Dane{\ldots} &
+    51.513129 & -0.114999 &
+    1.604640 & 700179.286900 & 5.710836e+06
+    \end{tabular}
+}
 
-   Distance from Center (km)              X             Y
-0                   1.420752  700386.738823  5.711561e+06
-1                   0.322339  701610.720723  5.711452e+06
-2                   1.420003  700713.661900  5.710192e+06
-3                   0.580570  701659.495233  5.710589e+06
-4                   1.604640  700179.286900  5.710836e+06
-\end{Verbatim}
-\end{tcolorbox}
+            % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+% % \prompt{Out}{outcolor}{103}{\boxspacing}
+% \begin{Verbatim}[commandchars=\\\{\}]
+                                             % Address   Latitude  Longitude  \textbackslash{}
+% 0  3, Brooke's Court, Gray's Inn, Holborn, London{\ldots}  51.519565  -0.111601
+% 1  Monkwell Square, Barbican, City of London, Gre{\ldots}  51.518159  -0.094044
+% 2  Hatfield House, 52, Stamford Street, Southwark{\ldots}  51.507155  -0.107674
+% 3  Vintners Place, Upper Thames Street, Blackfria{\ldots}  51.510383  -0.093837
+% 4  Clement House, 97–99, Aldwych, St Clement Dane{\ldots}  51.513129  -0.114999
+
+   % Distance from Center (km)              X             Y
+% 0                   1.420752  700386.738823  5.711561e+06
+% 1                   0.322339  701610.720723  5.711452e+06
+% 2                   1.420003  700713.661900  5.710192e+06
+% 3                   0.580570  701659.495233  5.710589e+06
+% 4                   1.604640  700179.286900  5.710836e+06
+% \end{Verbatim}
+% \end{tcolorbox}
         
-    We have created 5 addresses that locate clusters of \textbf{hot} zones.
-Theses zones represent locations with:
-\begin{itemize}
-\item
-    A low number of restaurants;
-\item
-    Few \textbf{Italian} restaurants;
-\item
-    No \textbf{French} restaurants.
-\end{itemize}
+    % We have created 5 addresses that locate clusters of \textbf{hot} zones.
+% Theses zones represent locations with:
+% \begin{itemize}
+% \item
+    % A low number of restaurants;
+% \item
+    % Few \textbf{Italian} restaurants;
+% \item
+    % No \textbf{French} restaurants.
+% \end{itemize}
 
 They are perfect to establish a new \textbf{French} restaurant.
 Nevertheless, although zones are shown on map with a radius of 250
@@ -5034,10 +5401,10 @@ locations.
 % \end{Verbatim}
 % \end{tcolorbox}
 
-\includegraphics{19_clusters_markers}
+\begin{center}\includegraphics{19_clusters_markers}\end{center}
 
             % \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-% \prompt{Out}{outcolor}{104}{\boxspacing}
+% % \prompt{Out}{outcolor}{104}{\boxspacing}
 % \begin{Verbatim}[commandchars=\\\{\}]
 % <folium.folium.Map at 0x221f136bcd0>
 % \end{Verbatim}
